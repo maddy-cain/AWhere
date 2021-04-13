@@ -20,7 +20,7 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
 
 	<title>AWhere</title>
-	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="css/styles.css">
 </head>
 <body style="background: oldlace">
 	<div class = "hero-image"><img src="images/wolfville.png" alt="Wolfville"></div>
