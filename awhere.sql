@@ -82,6 +82,7 @@ INSERT INTO `response` (`resp_id`, `rest_id`) VALUES
 (19, 1),
 (70, 1),
 (79, 1),
+(85, 1),
 (1, 2),
 (5, 2),
 (26, 2),
@@ -92,6 +93,7 @@ INSERT INTO `response` (`resp_id`, `rest_id`) VALUES
 (28, 3),
 (29, 3),
 (68, 3),
+(82, 3),
 (8, 4),
 (35, 4),
 (37, 4),
@@ -113,16 +115,19 @@ INSERT INTO `response` (`resp_id`, `rest_id`) VALUES
 (31, 6),
 (32, 6),
 (34, 6),
+(84, 6),
 (11, 7),
 (30, 7),
 (58, 7),
 (59, 7),
 (60, 7),
 (61, 7),
+(81, 7),
 (21, 8),
 (22, 8),
 (23, 8),
 (25, 8),
+(83, 8),
 (12, 9),
 (24, 9),
 (49, 9),
@@ -144,14 +149,7 @@ INSERT INTO `response` (`resp_id`, `rest_id`) VALUES
 (62, 13),
 (63, 13),
 (64, 13),
-(65, 13),
-(71, 14),
-(72, 14),
-(73, 14),
-(74, 14),
-(75, 14),
-(76, 14),
-(77, 14);
+(65, 13);
 
 -- --------------------------------------------------------
 
@@ -495,41 +493,6 @@ INSERT INTO `response_value` (`resp_id`, `q_id`, `q_val`) VALUES
 (70, 3, 0),
 (70, 4, 1),
 (70, 5, 0),
-(71, 1, 1),
-(71, 2, 0),
-(71, 3, 0),
-(71, 4, 1),
-(71, 5, 1),
-(72, 1, 1),
-(72, 2, 1),
-(72, 3, 1),
-(72, 4, 0),
-(72, 5, 0),
-(73, 1, 0),
-(73, 2, 1),
-(73, 3, 0),
-(73, 4, 0),
-(73, 5, 0),
-(74, 1, 1),
-(74, 2, 1),
-(74, 3, 0),
-(74, 4, 0),
-(74, 5, 1),
-(75, 1, 1),
-(75, 2, 0),
-(75, 3, 0),
-(75, 4, 1),
-(75, 5, 1),
-(76, 1, 1),
-(76, 2, 1),
-(76, 3, 1),
-(76, 4, 0),
-(76, 5, 0),
-(77, 1, 1),
-(77, 2, 1),
-(77, 3, 1),
-(77, 4, 1),
-(77, 5, 1),
 (78, 1, 1),
 (78, 2, 1),
 (78, 3, 0),
@@ -544,7 +507,32 @@ INSERT INTO `response_value` (`resp_id`, `q_id`, `q_val`) VALUES
 (80, 2, 1),
 (80, 3, 1),
 (80, 4, 0),
-(80, 5, 0);
+(80, 5, 0),
+(81, 1, 1),
+(81, 2, 0),
+(81, 3, 0),
+(81, 4, 1),
+(81, 5, 1),
+(82, 1, 0),
+(82, 2, 1),
+(82, 3, 0),
+(82, 4, 1),
+(82, 5, 1),
+(83, 1, 1),
+(83, 2, 1),
+(83, 3, 0),
+(83, 4, 1),
+(83, 5, 0),
+(84, 1, 1),
+(84, 2, 0),
+(84, 3, 1),
+(84, 4, 1),
+(84, 5, 0),
+(85, 1, 0),
+(85, 2, 1),
+(85, 3, 0),
+(85, 4, 0),
+(85, 5, 1);
 
 -- --------------------------------------------------------
 
@@ -574,8 +562,7 @@ INSERT INTO `restaurant` (`rest_id`, `name`) VALUES
 (10, 'Annapolis Cider Company'),
 (11, 'The Axe Bar and Grill'),
 (12, 'T.A.N. Coffee'),
-(13, 'Juniper'),
-(14, 'Restaurant X');
+(13, 'Juniper');
 
 --
 -- Indexes for dumped tables
@@ -621,7 +608,7 @@ ALTER TABLE `question`
 -- AUTO_INCREMENT for table `response`
 --
 ALTER TABLE `response`
-  MODIFY `resp_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=81;
+  MODIFY `resp_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=86;
 
 --
 -- AUTO_INCREMENT for table `restaurant`
@@ -650,3 +637,4 @@ COMMIT;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+
