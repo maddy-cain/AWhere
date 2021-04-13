@@ -1,0 +1,181 @@
+/*
+	File: styles.css
+	Author: Maddy Cain 149010c@acadiau.ca
+	Prepared for COMP 4983 X2
+*/
+
+/* TEXT FORMATTING */
+h1 {
+	padding: 20px;
+	font-family: 'Optima';
+	color: #636534;
+	font-size: 25px;
+}
+
+h2 {
+	padding: 20px;
+	font-family: 'Optima';
+	color: #636534;
+	font-size: 40px;
+}
+
+h3 {
+	font-family: 'Optima';
+	color: #636534;
+	font-size: 60px;
+}
+
+h4 {
+	font-family: 'Optima';
+	color: #636534;
+	font-size: 20px;
+}
+
+h5 {
+	font-family: 'Optima';
+	color: #636534;
+	font-size: 20px;
+}
+
+input {
+	padding: 20px;
+	font-family: 'Optima';
+	color: #636534;
+	font-size: 25px;
+}
+
+td {
+	font-family: 'Optima';
+	color: #636534;
+	font-size: 20px;
+}
+
+/* LINKS FORMATTING */
+a:link {
+	color: #636534;
+}
+
+a:visited {
+	color: #636534;
+}
+
+a:hover {
+	color: #A4A95C;
+}
+
+a:active {
+	color: #A4A95C;
+}
+
+/* BUTTONS */
+.button:hover {
+	opacity: 0.8;
+}
+
+.button {
+	background-color: #636534;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	cursor: pointer;
+	width: 50%;
+	font-family: 'Optima';
+}
+
+input[type=button]:hover, input[type=submit]:hover {
+	opacity: 0.8;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+	background-color: #636534;
+	border: none;
+	color: white;
+	padding: 14px 20px;
+	text-decoration: none;
+	margin: 8px 0px;
+	cursor: pointer;
+	width: 30%;
+	font-family: 'Optima';
+}
+
+/* NAVIGATION BAR */
+.topnav {
+	padding: 30px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.topnav a {
+	text-align: center;
+	margin: 0 auto;
+	color: #636534;
+	padding: 14px 16px;
+	font-size: 20px;
+	font-family: 'Optima';
+}
+
+.topnav a:hover {
+	color: #A4A95C;
+}
+
+.topnav li{
+    display:inline;
+}
+
+/* BANNER IMAGE */
+.hero-image {
+	filter: blur(5px);
+	-webkit-filter: blur(7px);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.hero-logo {
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 75%;
+	padding: 10px;
+}
+
+/* FOOTER */
+footer p {
+	padding: 0px;
+	font-family: 'Optima';
+	color: #636534;
+	font-size: 15px;
+}
+
+footer {
+	text-align: center;
+	padding: 3px;
+}
+
+/* DIV CLASSES & FORMATTING */
+.center-screen {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.about {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.about p {
+	padding: 10px;
+	font-family: 'Optima';
+	color: #636534;
+	font-size: 18px;
+	width: 65%;
+}
